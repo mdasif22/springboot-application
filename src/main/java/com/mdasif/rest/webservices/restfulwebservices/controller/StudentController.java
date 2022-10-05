@@ -27,6 +27,6 @@ public class StudentController {
 	@GetMapping(path = "/path-variable/{name}")
 	public helloBean bean(@PathVariable String name) {
 		
-		return new helloBean(String.format("Hello World, %s ",name));
+		return new helloBean(String.format("Hello Spring boot, %s ",name));
 	}
 }
